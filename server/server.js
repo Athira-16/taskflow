@@ -15,7 +15,7 @@ const app = express();
 // app.use(cors());
 app.use(
   cors({
-    origin: "https://YOUR_FRONTEND_URL.vercel.app",
+    origin: "https://taskflow-rho-three.vercel.app",
     credentials: true,
   }),
 );
