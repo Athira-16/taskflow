@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  font-family:
+    Courier New,
+    Courier,
+    monospace;
+  background: #c6bdbd;
+}
+
+/* Navbar */
+
+.navbar {
+  background: rgb(97, 95, 95);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar button {
+  background: #111827;
+}
+
+/* Dashboard */
+
+.dashboard {
+  padding: 30px;
+}
+
+.project-form {
+  background: white;
+  padding: 20px 40px 20px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.project-form input,
+.project-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  padding: 20px 40px 20px 20px;
+  border-radius: 10px;
+}
+
+.project-card button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+}
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.button-group button {
+  width: auto;
+  margin: 0;
+}
+
+button {
+  background-color: #111827;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.container {
+  width: 400px;
+  margin: 60px auto;
+  background: rgb(97, 95, 95);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: #c07ce0 0px 10px 10px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+.container input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.container button {
+  width: 50%;
+  margin: 15px auto 0;
+  display: block;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container p,
+.container a {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container p {
+  text-align: center;
+  color: white;
+}
+
+.container a {
+  color: rgb(17, 16, 16);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+.board {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.column {
+  flex: 1;
+  background: #e5e7eb;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 400px;
+}
+
+.column h2 {
+  text-align: center;
+}
+
+.detail-dashboard {
+  padding: 30px;
+}
+
+.detail-dashboard a {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: rgb(17, 16, 16);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.detail-dashboard a:hover {
+  text-decoration: underline;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.task-input input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.task-card {
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: grab;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.task-card input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  flex: 1;
+}
