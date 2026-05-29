@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import API from "../services/api";
@@ -6,21 +6,20 @@ import TaskBoard from "../components/TaskBoard";
 
 function ProjectDetails() {
   const { id } = useParams();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const [tasks, setTasks] = useState([]);
 
   const [taskTitle, setTaskTitle] = useState("");
 
-  const fetchTasks = async () => {
+  const fetchTasks = useCallback(async () => {
     const res = await API.get(`/tasks/${id}`);
 
     setTasks(res.data);
-  };
-
+  }, [id]);
   useEffect(() => {
     fetchTasks();
-  }, []);
+  }, [fetchTasks]);
 
   const addTask = async () => {
     await API.post("/tasks", {
