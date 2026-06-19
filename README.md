@@ -21,7 +21,7 @@
 
 The app was designed to solve a real productivity gap: giving individuals and small teams a lightweight, intuitive tool to manage work without the overhead of enterprise software.
 
-> 🚀 **Live:** [taskflow.vercel.app](https://athira-portfolio-site.vercel.app) &nbsp;|&nbsp; 📂 **Repo:** [github.com/athirarajagopalan](https://github.com/athira-16/taskflow)
+> 🚀 **Live:** [taskflow.vercel.app](https://athira-portfolio-site.vercel.app) &nbsp;|&nbsp; 📂 **Repo:** [github.com/athira-16](https://github.com/athira-16/taskflow)
 
 ---
 
