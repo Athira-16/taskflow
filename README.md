@@ -61,7 +61,7 @@ The app was designed to solve a real productivity gap: giving individuals and sm
 | **Backend** | Node.js, Express.js |
 | **Database** | MongoDB, Mongoose ODM |
 | **Authentication** | JSON Web Tokens (JWT), bcrypt |
-| **Deployment** | Vercel (frontend), MongoDB Atlas (DB) |
+| **Deployment** | Vercel (frontend), Render(backend), MongoDB Atlas (DB) |
 | **Tools** | Git, npm, REST APIs, Postman |
 
 ---
