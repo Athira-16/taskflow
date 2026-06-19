@@ -21,7 +21,7 @@
 
 The app was designed to solve a real productivity gap: giving individuals and small teams a lightweight, intuitive tool to manage work without the overhead of enterprise software.
 
-> 🚀 **Live:** [taskflow.vercel.app](https://athira-portfolio-site.vercel.app) &nbsp;|&nbsp; 📂 **Repo:** [github.com/athirarajagopalan](https://github.com/athirarajagopalan)
+> 🚀 **Live:** [taskflow.vercel.app](https://athira-portfolio-site.vercel.app) &nbsp;|&nbsp; 📂 **Repo:** [github.com/athirarajagopalan](https://github.com/athira-16/taskflow)
 
 ---
 
@@ -76,8 +76,7 @@ taskflow/
 │       ├── components/       # Reusable UI components
 │       ├── pages/            # Route-level page components
 │       ├── context/          # Global state (AuthContext, TaskContext)
-│       ├── hooks/            # Custom React hooks
-│       └── utils/            # API helper functions
+│       
 │
 ├── server/                   # Node.js + Express backend
 │   ├── controllers/          # Route handler logic
@@ -107,7 +106,7 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/athirarajagopalan/taskflow.git
+git clone https://github.com/athira-16/taskflow.git
 cd taskflow
 ```
 
@@ -223,7 +222,7 @@ Full Stack Developer | Perth, WA, Australia
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-athira--portfolio--site.vercel.app-4F46E5?style=flat-square)](https://athira-portfolio-site.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/athirarajagopalan)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/athirarajagopalan)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/athira-16)
 
 ---
 
