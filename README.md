@@ -200,15 +200,6 @@ The app will open at `http://localhost:3000`
 <img width="1907" height="797" alt="image" src="https://github.com/user-attachments/assets/338e3683-cfdb-4cc7-a511-49c11b22ce4f" />
 <img width="1918" height="788" alt="image" src="https://github.com/user-attachments/assets/0e34203f-6c94-456f-b15d-c603e99c2b17" />
 
-
-
-
-
-
-| Dashboard | Task Board | Task Detail |
-|---|---|---|
-| ![Dashboard](./screenshots/dashboard.png) | ![Board](./screenshots/board.png) | ![Detail](./screenshots/detail.png) |
-
 ---
 
 ## 🌐 Live Demo
