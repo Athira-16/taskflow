@@ -194,7 +194,16 @@ The app will open at `http://localhost:3000`
 
 ## 📸 Screenshots
 
-> _Add screenshots here once available_
+> <img width="756" height="553" alt="image" src="https://github.com/user-attachments/assets/4cdaa485-3190-4282-9da8-6e60b1407228" />
+<img width="1905" height="580" alt="image" src="https://github.com/user-attachments/assets/1f74ff83-657f-43f6-a9d1-9435e1744d48" />
+<img width="1901" height="773" alt="image" src="https://github.com/user-attachments/assets/e1d03168-f032-4b2c-9c63-0b6e013c5726" />
+<img width="1907" height="797" alt="image" src="https://github.com/user-attachments/assets/338e3683-cfdb-4cc7-a511-49c11b22ce4f" />
+<img width="1918" height="788" alt="image" src="https://github.com/user-attachments/assets/0e34203f-6c94-456f-b15d-c603e99c2b17" />
+
+
+
+
+
 
 | Dashboard | Task Board | Task Detail |
 |---|---|---|
